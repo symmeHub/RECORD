@@ -2,7 +2,7 @@
 ![RECORD_Logo](https://github.com/symmeHub/RECORD/assets/36209435/e0efaf5c-5f7e-4a36-9b17-5c2cc88e049d)
 
 ###  Projet ANR-SHINE (ANR-22-EXES-0017)
-**RECORD** : **R**econfigurer l’**É**valuation du **COR**ps en **D**éplacement : une étape précieuse pour la compréhension des troubles du schéma corporel et le développement d’une prise en charge thérapeutique adaptée. <br />
+**RECORD** : Reconfiguring the Evaluation of the body in Movement : a valuable step for understanding body schema disorders and developing an appropriate therapeutic approach. <br />
 
 <table>
 <tbody>
