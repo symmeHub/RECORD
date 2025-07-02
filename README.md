@@ -1,46 +1,40 @@
-# -RECORD-
-![RECORD_Logo](https://github.com/symmeHub/RECORD/assets/36209435/e0efaf5c-5f7e-4a36-9b17-5c2cc88e049d)
+![Image](https://github.com/user-attachments/assets/4b3d3528-d859-4d76-929e-b168dbeb357c)
 
-###  Projet ANR-SHINE (ANR-22-EXES-0017)
 **RECORD** : Reconfiguring the Evaluation of the body in Movement : a valuable step for understanding body schema disorders and developing an appropriate therapeutic approach. <br />
 
 <table>
 <tbody>
       <tr>
-    <td>Début :</td>
+    <td>Project start :</td>
     <td>22/01/2024</td>
   </tr>
       <tr>
-    <td>Financement :</td>
-    <td>14 800 €</td>
+    <td>Fundings :</td>
+    <td>14 800 € (ANR-SHINE (ANR-22-EXES-0017))</td>
   </tr>
    <tr>
-    <td>Coordinateurs scientifiques :</td>
+    <td>Scientific managers :</td>
     <td>Morgane METRAL / Luc MARECHAL </td>
   </tr>
   <tr>
-    <td>Laboratoire du coordinateur scientifique :</td>
-    <td>LIP/PC2S</td>
-  </tr>
-  <tr>
-    <td>Laboratoire partenaire :</td>
+    <td>Collaborating Labs :</td>
     <td>SYMME</td>
   </tr>
   <tr>
-    <td>Equipe :</td>
-    <td> [Christian ELMO (docteur ingénieur)](https://github.com/elmokulc) </td>
+    <td>Research Team :</td>
+    <td> [Christian ELMO (PhD, Ing.)](https://github.com/elmokulc) </td>
   </tr>
    <tr>
     <td> </td>
-    <td> Louise Dupraz (docteur)</td>
+    <td> Louise Dupraz (PhD)</td>
   </tr>      
    <tr>
     <td> </td>
-    <td>[Jessica BOURGIN (docteur ingénieure)](https://github.com/jbourgin)</td>
+    <td>[Jessica BOURGIN (PhD, Ing.)](https://github.com/jbourgin)</td>
   </tr>
    <tr>
     <td> </td>
-    <td>Blaise GIRARD (technicien)</td>
+    <td>Blaise GIRARD (Technician)</td>
   </tr>      
 </tbody>
 </table>
