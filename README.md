@@ -39,5 +39,4 @@
 </tbody>
 </table>
 
-
-https://github.com/symmeHub/RECORD/wiki
+https://github.com/symmeHub/RECORD/wiki/RECORD
