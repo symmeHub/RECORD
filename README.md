@@ -194,6 +194,21 @@ graph TD
     classDef intermediate fill:#FCF3CF,stroke:#F1C40F,stroke-width:2px;
 ```
 
+## Citations
+
+If you use this software in your research, please cite the following Zenodo DOI:
+
+```
+@software{marechal_elmo_2025_record,
+  author       = {Luc Marechal and Christian Elmo},
+  title        = {symmeHub/RECORD: Launch RECORD repository (2.1.1)},
+  year         = {2025},
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.17177150},
+  url          = {https://doi.org/10.5281/zenodo.17177150}
+}
+```
+
 ## WSL installation notes
 
 ```shell
