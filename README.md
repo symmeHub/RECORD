@@ -1,5 +1,7 @@
 ![Image](https://github.com/user-attachments/assets/4b3d3528-d859-4d76-929e-b168dbeb357c)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17177150.svg)](https://doi.org/10.5281/zenodo.17177150)
+
 ### ANR-SHINE Project (ANR-22-EXES-0017)
 RECORD: **R**econfigurer l’**É**valuation du **COR**ps en **D**éplacement (Reconfiguring the Evaluation of the BODY in Motion) — a valuable step toward understanding body schema disorders and developing appropriate therapeutic care.<br />
 
@@ -197,4 +199,3 @@ graph TD
 ```shell
 sudo apt-get install -y libxkbcommon-x11-0 libxcb-cursor0
 ```
-
