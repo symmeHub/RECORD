@@ -1,0 +1,58 @@
+database:
+  filename: /workspaces/record/assets/database.db
+imus:
+- IMU_BNO055_01:
+    ip_address: 192.168.0.11
+    label: imu_left
+    mac_address: 00:00:00:00:00:00
+    selected: true
+    socket: 64344
+- IMU_BNO055_02:
+    ip_address: 192.168.0.12
+    label: imu_bck
+    mac_address: 00:00:00:00:00:00
+    selected: false
+    socket: 64344
+- IMU_BNO055_03:
+    ip_address: 192.168.0.13
+    label: imu_bck
+    mac_address: 00:00:00:00:00:00
+    selected: false
+    socket: 64344
+- IMU_BNO055_04:
+    ip_address: 192.168.0.14
+    label: imu_bck
+    mac_address: 00:00:00:00:00:00
+    selected: false
+    socket: 64344
+triggers:
+- TRIGGER_SENSOR_00:
+    ip_address: 192.168.0.20
+    label: starter
+    mac_address: 00:00:00:00:00:00
+    selected: true
+    socket: 64388
+- TRIGGER_SENSOR_01:
+    ip_address: 192.168.0.21
+    label: closer
+    mac_address: 00:00:00:00:00:00
+    selected: true
+    socket: 64388
+- TRIGGER_SENSOR_02:
+    ip_address: 192.168.0.22
+    label: checker
+    mac_address: 00:00:00:00:00:00
+    selected: true
+    socket: 64388
+- TRIGGER_SENSOR_03:
+    ip_address: 192.168.0.23
+    label: checker
+    mac_address: 00:00:00:00:00:00
+    selected: true
+    socket: 64388
+- TRIGGER_SENSOR_04:
+    ip_address: 192.168.0.24
+    label: checker
+    mac_address: 00:00:00:00:00:00
+    selected: false
+    socket: 64388

@@ -1,0 +1,69 @@
+[project]
+authors = [{name = "Christian Elmo", email = "christian.elmo-kulanesan@univ-smb.fr"},
+            {name = "Luc Maréchal", email = "luc.marechal@univ-smb.fr"}]
+description = "A python module for recording IMU data"
+name = "record"
+requires-python = "== 3.10.*"
+version = "2.1.0"
+license = { file = "LICENSE" }
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+]
+dependencies = ["igus @ git+https://github.com/elmokulc/igus.git", "findpeaks @ git+https://github.com/elmokulc/findpeaks.git", "opencv-python>=4.11.0.86,<5", "opencv-contrib-python>=4.11.0.86,<5"]
+
+
+[build-system]
+build-backend = "hatchling.build"
+requires = ["hatchling"]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.pixi.project]
+channels = ["conda-forge"]
+platforms = ["win-64", "linux-64", "osx-arm64"]
+
+[tool.pixi.pypi-dependencies]
+record = { path = ".", editable = true }
+ahrs = "==0.3.1"
+colored= "==2.2.4"
+vtk = ">=9.3.1,<10"
+pyqtgraph = ">=0.13.7,<0.14"
+pip = ">=25.0.1,<26"
+pyqt6 = "==6.8.0"
+pyqt6-qt6 = "==6.8.1"
+pyqt6-sip = "==13.9.1"
+qt6-applications = "==6.5.0.2.3"
+qt6-tools = "==6.5.0.1.3"
+furo = ">=2024.8.6,<2026"
+
+[tool.pixi.dependencies]
+python = "3.10.*"
+ipython = ">=8.32.0,<9"
+dash = ">=2.18.2,<3"
+numba = ">=0.61.0,<0.62"
+pandas = ">=2.2.3,<3"
+plotly = ">=6.0.0,<7"
+sqlite = ">=3.48.0,<4"
+sqlalchemy = ">=2.0.38,<3"
+tqdm = ">=4.67.1,<5"
+pyyaml = ">=6.0.2,<7"
+sphinx = ">=8.1.3,<9"
+pyserial = ">=3.5"
+scipy = ">=1.15.2,<2"
+ipdb = ">=0.13.13,<0.14"
+scikit-learn = ">=1.6.1,<2"
+openpyxl = ">=3.1.5,<4"
+xlsxwriter = ">=3.2.5,<4"
+
+[tool.pixi.tasks]
+edit_depends = "pip install -e <path_to_editable_dep>"
+soft = "python ./src/record/gui/main.py"
+soft-dev = "python -X dev ./src/record/gui/main.py"
+designer = "qt6-tools designer"
+lint = "pre-commit run --all-files"
+update-ui = "python -c 'from record.gui.utils import UiLoader; UiLoader()'"
+dev = { depends-on = ["update-ui", "soft-dev"]}
+docs-apidoc = "sphinx-apidoc -o docs/api src/record"
+docs-html = { depends-on = ["docs-apidoc"], cmd = "sphinx-build -b html docs docs/_build/html" }
+docs-serve = "python -m http.server -d docs/_build/html 8000"
