@@ -56,7 +56,7 @@ The application collects data from IMU motion sensors and processes them to prod
 ### Wiki
 - https://github.com/symmeHub/RECORD/wiki/RECORD
 
-### Shpinx
+### Sphinx
 - Build HTML docs: `pixi run docs-html`
 - Serve locally: open `docs/_build/html/index.html` or `pixi run docs-serve` and browse http://localhost:8000/
 - Regenerate API stubs (if you add/remove modules): `pixi run docs-apidoc`
