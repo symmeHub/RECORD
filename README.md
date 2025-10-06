@@ -44,6 +44,8 @@ RECORD: **R**econfigurer l’**É**valuation du **COR**ps en **D**éplacement (R
 </tbody>
 </table>
 
+https://github.com/symmeHub/RECORD/blob/main/assets/RECORD_project.mp4
+
 ## Repository Description
 
 This repository contains the code and assets for the record-imucap software.
