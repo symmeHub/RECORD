@@ -11,7 +11,7 @@ RECORD: **R**econfigurer l’**É**valuation du **COR**ps en **D**éplacement (R
   </tr>
   <tr>
     <td>Funding:</td>
-    <td>€14,800</td>
+    <td>€14,800 (USMB - ANR Shine) </td>
   </tr>
   <tr>
     <td>Scientific coordinators:</td>
