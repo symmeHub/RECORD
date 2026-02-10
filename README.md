@@ -51,6 +51,25 @@ https://github.com/symmeHub/RECORD/blob/main/assets/RECORD_project.mp4
 This repository contains the code and assets for the record-imucap software.
 The application collects data from IMU motion sensors and processes them to produce study-specific results for the RECORD clinical trials.
 
+### Citing
+
+https://www.liebertpub.com/doi/pdf/10.1089/soro.2019.0115
+
+To cite the **[RECORD] device** in your academic research, please use the following bibtex entry:
+
+```tex
+@article{Marechal2026,
+author = {Marechal, Luc and Elmo Kulanesan, Christian and Dupraz, Louise and Metral, Morgane and Bourgin, Jessica and Girard, Blaise},
+title = {RECORD: A Simple, Low-Cost, and Open-Source IMU-Based Tool for the Diagnosis of Body Schema Distortions},
+journal = {IEEE Journal of Translational Engineering in Health and Medicine},
+volume = {14},
+number = {0},
+pages = {45-54},
+year = {2020},
+doi = {10.1109/JTEHM.2026.3655633},
+}
+```
+
 ## Documentation
 
 ### Wiki
