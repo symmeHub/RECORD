@@ -65,7 +65,7 @@ journal = {IEEE Journal of Translational Engineering in Health and Medicine},
 volume = {14},
 number = {0},
 pages = {45-54},
-year = {2020},
+year = {2026},
 doi = {10.1109/JTEHM.2026.3655633},
 }
 ```
