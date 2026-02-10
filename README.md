@@ -53,7 +53,7 @@ The application collects data from IMU motion sensors and processes them to prod
 
 ### Citing
 
-https://www.liebertpub.com/doi/pdf/10.1089/soro.2019.0115
+https://ieeexplore.ieee.org/document/11358976
 
 To cite the **[RECORD] device** in your academic research, please use the following bibtex entry:
 
